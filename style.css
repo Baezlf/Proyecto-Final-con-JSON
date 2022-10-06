@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./imagenes/Fondo\ twitch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cabecera{
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    align-self: center;
+}
+
+#nombre-tienda{
+    height: 50px;
+}
+
+.boton-admin{
+    font-size: large;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+
+.boton{
+    font-size: large;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton-cantidad{
+    font-size: large;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#pag-principal{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.contenedor-carrito{
+    color: white;
+    width: 25%;
+    float: right;
+}
+
+.carrito-titulo{
+    color: white;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.carrito-compras{
+    width: 100%;
+    background-color: rgb(22, 90, 218);
+    padding: 5px;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+.prod-en-carrito{
+    border-radius: 10px;
+    background-color: rgba(77, 54, 54, 0.7);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    height: 140px;
+}
+
+.contenedor-mangas{
+    display: flex;
+    width: 75%;
+    float: left;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.div-imagen{
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.imagen-manga{
+    width: 100%;
+    height: auto;
+    
+}
+
+.mostrar-productos{
+    background-color: aliceblue;
+    background-position: center;
+    height: 100%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 470px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+
+.titulo-manga{
+    text-align: center;
+}
+
+#total{
+    float: right;
+}
+
+#cantidad{
+    float: right;
+}
+
+.fila{
+    text-align: right;
+}
+
+#tabla{
+    background-color: aliceblue;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+}
+
+
+.div-botones{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+}
