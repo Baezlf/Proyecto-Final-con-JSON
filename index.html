@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header id="nombre-tienda" class="cabecera">
-        <h1>Tienda de Mangas</h1>
+        <h1 id="titulo-tienda">Tienda de Mangas</h1>
     </header>
     <section id="pag-principal">
         <div class="div-botones">
@@ -18,8 +21,6 @@
         </div>
         <div>            
             <div id="ver-ventas" class="lista-ventas"></div>
-            <div id="cargar-stock" class="formulario-stock"></div>
-            <div id="formulario" class="formulario-carga"></div>
         </div>
         <div id="contenedor" class="contenedor-mangas"></div>
         <div class="contenedor-carrito">            
@@ -27,7 +28,7 @@
                 <h2 class="carrito-titulo"><i class="bi bi-cart"></i> Carrito</h2>
                 <ul id="carrito" class="lista"></ul>
                 <hr />
-                <h3 class="total">Total: <span id="total"></span></h3>
+                <h3 class="total"><b>Total: </b><span id="total"></span></h3>
                 <button id="boton-vaciar" class="boton">Vaciar carrito <i class="bi bi-cart-x"></i></button>
                 <button id="realizar-compra" class="boton">Comprar <i class="bi bi-cart-check"></i></button>
             </div>
